@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Shifumi !</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/solar/bootstrap.min.css" rel="stylesheet" integrity="sha384-8nq3OiMMgrVFAHyRMMO+DTfMEciSY+c3Awhj/5ljQ1xck1Uv2BUtMjsjLD8GT5Er" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row mt-5 justify-content-center">
+      <div class="col-md-7">
+        <div class="mb-5">
+        <h1 class="text-center pt-5 mt-5">Shifumi !</h1>
+        </div>
+        <span class="left">Player: 0</span>
+        <span class="right">Computer: 0</span>
+        <div class="text-center pt-4">
+          <select class="col-md-4" id="player">
+            <option value="rock">Pierre</option>
+            <option value="paper">Papier</option>
+            <option value="scissors">Ciseaux</option>
+          </select>
+          <div class="text-center">
+            <button class="btn btn-primary mt-5" id=submit type="button" name="submit" >C'est parti !</button>
+          </div>
+          <div id="result"><p></p></div>
+          <!-- <button class="btn btn-danger mt-5" type="button" name="button" id="rock"><i class="fa fa-hand-rock-o fa-4x" aria-hidden="true"></i></button> -->
+          <!-- <button class="btn btn-primary mt-5" type="button" name="button" id="paper"><i class="fa fa-hand-paper-o fa-4x" aria-hidden="true"></i></button> -->
+          <!-- <button class="btn btn-success mt-5" type="button" name="button" id="scissors"><i class="fa fa-hand-scissors-o fa-4x" aria-hidden="true"></i></button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

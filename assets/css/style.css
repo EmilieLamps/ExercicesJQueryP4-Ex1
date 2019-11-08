@@ -1,0 +1,12 @@
+h1 {
+  font-size: 50px;
+}
+.players {
+  font-size: 32px
+}
+#submit {
+  font-size: 25px;
+}
+span {
+  display: inline-block;
+}
